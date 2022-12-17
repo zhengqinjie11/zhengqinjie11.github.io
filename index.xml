@@ -1,16 +1,16 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>我的全新 Hugo 网站</title>
-        <link>https://zhengqinjie123.github.io/</link>
+        <link>https://zhengqinjie11.github.io/</link>
         <description>这是我的全新 Hugo 网站</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 17 Dec 2022 20:46:07 &#43;0800</lastBuildDate>
-            <atom:link href="https://zhengqinjie123.github.io/index.xml" rel="self" type="application/rss+xml" />
+            <atom:link href="https://zhengqinjie11.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>First_post</title>
-    <link>https://zhengqinjie123.github.io/first_post/</link>
+    <link>https://zhengqinjie11.github.io/first_post/</link>
     <pubDate>Sat, 17 Dec 2022 20:46:07 &#43;0800</pubDate>
     <author>xxxx</author>
-    <guid>https://zhengqinjie123.github.io/first_post/</guid>
+    <guid>https://zhengqinjie11.github.io/first_post/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>
