@@ -1,17 +1,25 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>我的全新 Hugo 网站</title>
+        <title>阿杰爱泠鸢 hugo blog</title>
         <link>https://zhengqinjie11.github.io/</link>
-        <description>这是我的全新 Hugo 网站</description>
+        <description>一可坏鸟蛋</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 17 Dec 2022 20:46:07 &#43;0800</lastBuildDate>
             <atom:link href="https://zhengqinjie11.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>First_post</title>
+    <title>hugo网站的搭建</title>
+    <link>https://zhengqinjie11.github.io/second_post/</link>
+    <pubDate>Sat, 17 Dec 2022 20:46:07 &#43;0800</pubDate>
+    <author>阿杰</author>
+    <guid>https://zhengqinjie11.github.io/second_post/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>在linux中安装和配置git</title>
     <link>https://zhengqinjie11.github.io/first_post/</link>
     <pubDate>Sat, 17 Dec 2022 20:46:07 &#43;0800</pubDate>
-    <author>xxxx</author>
+    <author>阿杰</author>
     <guid>https://zhengqinjie11.github.io/first_post/</guid>
-    <description><![CDATA[]]></description>
+    <description><![CDATA[前言 这是我个人的安装和配置git的方法，很方便，安装的版本也比较新，供大家参考～（大部分截图由于未保存丢失，故用代码代替） 一、git的安装 使]]></description>
 </item>
 </channel>
 </rss>

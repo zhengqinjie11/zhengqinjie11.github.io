@@ -4,33 +4,33 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>在linux中安装和配置git - 阿杰爱泠鸢 hugo blog</title><meta name="Description" content="一可坏鸟蛋"><meta property="og:title" content="在linux中安装和配置git" />
-<meta property="og:description" content="前言 这是我个人的安装和配置git的方法，很方便，安装的版本也比较新，供大家参考～（大部分截图由于未保存丢失，故用代码代替） 一、git的安装 使" />
+        <title>hugo网站的搭建 - 阿杰爱泠鸢 hugo blog</title><meta name="Description" content="一可坏鸟蛋"><meta property="og:title" content="hugo网站的搭建" />
+<meta property="og:description" content="" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://zhengqinjie11.github.io/first_post/" /><meta property="og:image" content="https://zhengqinjie11.github.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://zhengqinjie11.github.io/second_post/" /><meta property="og:image" content="https://zhengqinjie11.github.io/logo.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-12-17T20:46:07+08:00" />
 <meta property="article:modified_time" content="2022-12-17T20:46:07+08:00" /><meta property="og:site_name" content="我的网站" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://zhengqinjie11.github.io/logo.png"/>
 
-<meta name="twitter:title" content="在linux中安装和配置git"/>
-<meta name="twitter:description" content="前言 这是我个人的安装和配置git的方法，很方便，安装的版本也比较新，供大家参考～（大部分截图由于未保存丢失，故用代码代替） 一、git的安装 使"/>
+<meta name="twitter:title" content="hugo网站的搭建"/>
+<meta name="twitter:description" content=""/>
 <meta name="application-name" content="我的网站">
 <meta name="apple-mobile-web-app-title" content="我的网站"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://zhengqinjie11.github.io/first_post/" /><link rel="next" href="https://zhengqinjie11.github.io/second_post/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://zhengqinjie11.github.io/second_post/" /><link rel="prev" href="https://zhengqinjie11.github.io/first_post/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "在linux中安装和配置git",
+        "headline": "hugo网站的搭建",
         "inLanguage": "zh-CN",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/zhengqinjie11.github.io\/first_post\/"
-        },"genre": "posts","wordcount":  483 ,
-        "url": "https:\/\/zhengqinjie11.github.io\/first_post\/","datePublished": "2022-12-17T20:46:07+08:00","dateModified": "2022-12-17T20:46:07+08:00","publisher": {
+            "@id": "https:\/\/zhengqinjie11.github.io\/second_post\/"
+        },"genre": "posts","wordcount":  0 ,
+        "url": "https:\/\/zhengqinjie11.github.io\/second_post\/","datePublished": "2022-12-17T20:46:07+08:00","dateModified": "2022-12-17T20:46:07+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
                 "@type": "Person",
@@ -115,125 +115,17 @@
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">Contents</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">在linux中安装和配置git</h1><div class="post-meta">
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">hugo网站的搭建</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>阿杰</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-12-17">2022-12-17</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;483 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-12-17">2022-12-17</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;0 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;0 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="true">
                 <div class="details-summary toc-title">
                     <span>Contents</span>
                     <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
                 </div>
-                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
-  <ul>
-    <li><a href="#一git的安装">一、git的安装</a>
-      <ul>
-        <li><a href="#使用apt安装git">使用apt安装git</a></li>
-      </ul>
-    </li>
-    <li><a href="#二配置git">二、配置git</a>
-      <ul>
-        <li><a href="#1创建github账号">1、创建github账号</a></li>
-        <li><a href="#2配置用户名和用户邮箱">2、配置用户名和用户邮箱</a></li>
-        <li><a href="#3配置git的私匙和公匙">3、配置git的私匙和公匙</a></li>
-        <li><a href="#4github创建项目">4、github创建项目</a></li>
-      </ul>
-    </li>
-    <li><a href="#三我的第一二步的实验结果截图">三、我的第一、二步的实验结果截图：</a></li>
-  </ul>
-</nav></div>
-            </div><div class="content" id="content"><h1 id="前言">前言</h1>
-<p>  这是我个人的安装和配置git的方法，很方便，安装的版本也比较新，供大家参考～（大部分截图由于未保存丢失，故用代码代替）</p>
-<h2 id="一git的安装">一、git的安装</h2>
-<h3 id="使用apt安装git">使用apt安装git</h3>
-<p>安装非常直接，仅仅以sudo权限用户身份运行下面的命令：</p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/images/jietu1.png"
-        data-srcset="/images/jietu1.png, /images/jietu1.png 1.5x, /images/jietu1.png 2x"
-        data-sizes="auto"
-        alt="/images/jietu1.png"
-        title="/images/jietu1.png" /></p>
-<p>再运行git命令，打印 Git 版本，验证安装过程，如下图：</p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/images/jietu2.png"
-        data-srcset="/images/jietu2.png, /images/jietu2.png 1.5x, /images/jietu2.png 2x"
-        data-sizes="auto"
-        alt="/images/jietu2.png"
-        title="/images/jietu2.png" /></p>
-<p>这样子git就安装成功啦！</p>
-<h2 id="二配置git">二、配置git</h2>
-<h3 id="1创建github账号">1、创建github账号</h3>
-<p>首先我们需要到<a href="https://github.com/" target="_blank" rel="noopener noreffer ">https://github.com/</a>上面注册一个属于自己的账号，如图</p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/images/jietu3.png"
-        data-srcset="/images/jietu3.png, /images/jietu3.png 1.5x, /images/jietu3.png 2x"
-        data-sizes="auto"
-        alt="/images/jietu3.png"
-        title="/images/jietu3.png" /></p>
-<h3 id="2配置用户名和用户邮箱">2、配置用户名和用户邮箱</h3>
-<p>git config &ndash;global user.name &ldquo;lingyuanyousa&rdquo;</p>
-<p>git config &ndash;global user.email &ldquo;<a href="mailto:2996298542@qq.com" rel="">2996298542@qq.com</a>&rdquo;</p>
-<h3 id="3配置git的私匙和公匙">3、配置git的私匙和公匙</h3>
-<p>ssh-keygen -t rsa -C &ldquo;<a href="mailto:2996298542@qq.com" rel="">2996298542@qq.com</a>&rdquo;</p>
-<p>其中密码设置为空，在按照指引做就好。</p>
-<p>上github打开个人设置，点击new ssh kew，如图：</p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/images/jietu4.png"
-        data-srcset="/images/jietu4.png, /images/jietu4.png 1.5x, /images/jietu4.png 2x"
-        data-sizes="auto"
-        alt="/images/jietu4.png"
-        title="/images/jietu4.png" /></p>
-<p>终端打开id_rsa.pub文件，复制密钥到github上：</p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/images/jietu5.png"
-        data-srcset="/images/jietu5.png, /images/jietu5.png 1.5x, /images/jietu5.png 2x"
-        data-sizes="auto"
-        alt="/images/jietu5.png"
-        title="/images/jietu5.png" /></p>
-<p>回到终端测试是否连接成功（如图，已经连接成功）：</p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/images/jietu9.png"
-        data-srcset="/images/jietu9.png, /images/jietu9.png 1.5x, /images/jietu9.png 2x"
-        data-sizes="auto"
-        alt="/images/jietu9.png"
-        title="/images/jietu9.png" /></p>
-<h3 id="4github创建项目">4、github创建项目</h3>
-<p>github创建项目，将远程仓库与本地仓库连接起来（点击new）：</p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/images/jietu7.png"
-        data-srcset="/images/jietu7.png, /images/jietu7.png 1.5x, /images/jietu7.png 2x"
-        data-sizes="auto"
-        alt="/images/jietu7.png"
-        title="/images/jietu7.png" /></p>
-<p>随后你就可以上传你想上传的文件啦，使用命令：</p>
-<p>git init <code>初始化项目</code></p>
-<p>git add . <code>将当前目录下的文件添加到仓库（缓冲区）</code></p>
-<p>git commit -m &ldquo;init project&rdquo; <code>提交到本地仓库</code></p>
-<p>git push -u origin master <code>推送到远程仓库</code></p>
-<h2 id="三我的第一二步的实验结果截图">三、我的第一、二步的实验结果截图：</h2>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/images/jietu8.png"
-        data-srcset="/images/jietu8.png, /images/jietu8.png 1.5x, /images/jietu8.png 2x"
-        data-sizes="auto"
-        alt="/images/jietu8.png"
-        title="/images/jietu8.png" /></p>
-</div><div class="post-footer" id="post-footer">
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
+            </div><div class="content" id="content"></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
@@ -241,10 +133,10 @@
             </div></div>
         <div class="post-info-line">
             <div class="post-info-md"><span>
-                            <a class="link-to-markdown" href="/first_post/index.md" target="_blank">Read Markdown</a>
+                            <a class="link-to-markdown" href="/second_post/index.md" target="_blank">Read Markdown</a>
                         </span></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://zhengqinjie11.github.io/first_post/" data-title="在linux中安装和配置git" data-via="xxxx"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://zhengqinjie11.github.io/first_post/"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://zhengqinjie11.github.io/first_post/" data-title="在linux中安装和配置git"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://zhengqinjie11.github.io/first_post/" data-title="在linux中安装和配置git"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://zhengqinjie11.github.io/first_post/" data-title="在linux中安装和配置git"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://zhengqinjie11.github.io/second_post/" data-title="hugo网站的搭建" data-via="xxxx"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://zhengqinjie11.github.io/second_post/"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://zhengqinjie11.github.io/second_post/" data-title="hugo网站的搭建"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://zhengqinjie11.github.io/second_post/" data-title="hugo网站的搭建"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://zhengqinjie11.github.io/second_post/" data-title="hugo网站的搭建"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
@@ -256,8 +148,7 @@
         </section>
     </div>
 
-    <div class="post-nav">
-            <a href="/second_post/" class="next" rel="next" title="hugo网站的搭建">hugo网站的搭建<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+    <div class="post-nav"><a href="/first_post/" class="prev" rel="prev" title="在linux中安装和配置git"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>在linux中安装和配置git</a></div>
 </div>
 </article></div>
             </main><footer class="footer">

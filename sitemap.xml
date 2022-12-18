@@ -2,8 +2,9 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://zhengqinjie11.github.io/first_post/</loc><lastmod>2022-12-17T20:46:07&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://zhengqinjie11.github.io/second_post/</loc><lastmod>2022-12-17T20:46:07&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://zhengqinjie11.github.io/posts/</loc><lastmod>2022-12-17T20:46:07&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://zhengqinjie11.github.io/first_post/</loc><lastmod>2022-12-17T20:46:07&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://zhengqinjie11.github.io/</loc><lastmod>2022-12-17T20:46:07&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://zhengqinjie11.github.io/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://zhengqinjie11.github.io/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
