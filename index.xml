@@ -6,20 +6,44 @@
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 17 Dec 2022 20:46:07 &#43;0800</lastBuildDate>
             <atom:link href="https://zhengqinjie11.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>hugo网站的搭建</title>
+    <title>linux学习记录（持续更新中～）</title>
+    <link>https://zhengqinjie11.github.io/fourth_post/</link>
+    <pubDate>Sat, 17 Dec 2022 20:46:07 &#43;0800</pubDate>
+    <author>阿杰</author>
+    <guid>https://zhengqinjie11.github.io/fourth_post/</guid>
+    <description><![CDATA[linux 1、linux的引言 Linux是一套免费使用和自由传播的类Unix操作系统，是一个基于POSIX和Unix的多用户、多任务、支持多线程和多]]></description>
+</item>
+<item>
+    <title>Socket通信</title>
+    <link>https://zhengqinjie11.github.io/third_post/</link>
+    <pubDate>Sat, 17 Dec 2022 20:46:07 &#43;0800</pubDate>
+    <author>阿杰</author>
+    <guid>https://zhengqinjie11.github.io/third_post/</guid>
+    <description><![CDATA[前言 实现这个socket通信，我的方法是直接vim两个.c文件然后克隆一个终端，一个运行客户端，一个运行服务端，过程比较简单～ 一、vim两个]]></description>
+</item>
+<item>
+    <title>使用hugo搭建网站</title>
     <link>https://zhengqinjie11.github.io/second_post/</link>
     <pubDate>Sat, 17 Dec 2022 20:46:07 &#43;0800</pubDate>
     <author>阿杰</author>
     <guid>https://zhengqinjie11.github.io/second_post/</guid>
-    <description><![CDATA[]]></description>
+    <description><![CDATA[前言 HUGO 是一套模版静态化的系统，了解其目录结构有助于创建我们的网站系统，下面我分享以下我的搭建过程，希望对大家有点帮助～ 一、hugo的安装与配]]></description>
 </item>
 <item>
-    <title>在linux中安装和配置git</title>
+    <title>在ubantu中安装和配置git</title>
     <link>https://zhengqinjie11.github.io/first_post/</link>
     <pubDate>Sat, 17 Dec 2022 20:46:07 &#43;0800</pubDate>
     <author>阿杰</author>
     <guid>https://zhengqinjie11.github.io/first_post/</guid>
-    <description><![CDATA[前言 这是我个人的安装和配置git的方法，很方便，安装的版本也比较新，供大家参考～（大部分截图由于未保存丢失，故用代码代替） 一、git的安装 使]]></description>
+    <description><![CDATA[前言 这是我个人使用ubantu安装和配置git的方法，很方便，安装的版本也比较新，供大家参考～（大部分截图由于未保存丢失，故用代码代替） 一、]]></description>
+</item>
+<item>
+    <title>安装nginx</title>
+    <link>https://zhengqinjie11.github.io/fifth_post/</link>
+    <pubDate>Sat, 17 Dec 2022 20:46:07 &#43;0800</pubDate>
+    <author>阿杰</author>
+    <guid>https://zhengqinjie11.github.io/fifth_post/</guid>
+    <description><![CDATA[]]></description>
 </item>
 </channel>
 </rss>
