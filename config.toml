@@ -102,7 +102,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # 网站标题, 用于 Open Graph 和 Twitter Cards
   title = "我的网站"
   # 网站描述, 用于 RSS, SEO, Open Graph 和 Twitter Cards
-  description = "这是我的全新 Hugo 网站"
+  description = ""
   # 网站图片, 用于 Open Graph 和 Twitter Cards
   images = ["/logo.png"]
 
@@ -115,7 +115,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     #  页面头部导航栏标题配置
     [params.header.title]
       # LOGO 的 URL
-      logo = "lingyuan"
+      logo = "阿杰爱上冷鸟的博客"
       # 标题名称
       name = ""
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
@@ -212,7 +212,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       #  主页显示的网站标题 (支持 HTML 格式)
       title = ""
       # 主页显示的网站副标题 (允许 HTML 格式)
-      subtitle = "这是我的全新 Hugo 网站"
+      subtitle = "阿杰博客"
       # 是否为副标题显示打字机动画
       typeit = true
       # 是否显示社交账号
