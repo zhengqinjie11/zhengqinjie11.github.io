@@ -36,12 +36,12 @@
     <description><![CDATA[前言 这是我个人使用ubantu安装和配置git的方法，很方便，安装的版本也比较新，供大家参考～（大部分截图由于未保存丢失，故用代码代替） 一、]]></description>
 </item>
 <item>
-    <title>安装nginx</title>
+    <title>安装nginx并使用nginx将hugo静态网站配置到web</title>
     <link>https://zhengqinjie11.github.io/fifth_post/</link>
     <pubDate>Sat, 17 Dec 2022 20:46:07 &#43;0800</pubDate>
     <author>阿杰</author>
     <guid>https://zhengqinjie11.github.io/fifth_post/</guid>
-    <description><![CDATA[]]></description>
+    <description><![CDATA[一、安装nginx 使用命令 sudo apt-get install nginx 随后使用命令nginx -v查看是否成功 随后开启nginx服务： service nginx start 最后通过ifconfig查看ip地址，]]></description>
 </item>
 </channel>
 </rss>

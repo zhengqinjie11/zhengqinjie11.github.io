@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>安装nginx - 阿杰爱泠鸢 hugo blog</title><meta name="Description" content="一可坏鸟蛋"><meta property="og:title" content="安装nginx" />
-<meta property="og:description" content="" />
+        <title>安装nginx并使用nginx将hugo静态网站配置到web - 阿杰爱泠鸢 hugo blog</title><meta name="Description" content="一颗坏鸟蛋"><meta property="og:title" content="安装nginx并使用nginx将hugo静态网站配置到web" />
+<meta property="og:description" content="一、安装nginx 使用命令 sudo apt-get install nginx 随后使用命令nginx -v查看是否成功 随后开启nginx服务： service nginx start 最后通过ifconfig查看ip地址，" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://zhengqinjie11.github.io/fifth_post/" /><meta property="og:image" content="https://zhengqinjie11.github.io/logo.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-12-17T20:46:07+08:00" />
@@ -13,8 +13,8 @@
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://zhengqinjie11.github.io/logo.png"/>
 
-<meta name="twitter:title" content="安装nginx"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="安装nginx并使用nginx将hugo静态网站配置到web"/>
+<meta name="twitter:description" content="一、安装nginx 使用命令 sudo apt-get install nginx 随后使用命令nginx -v查看是否成功 随后开启nginx服务： service nginx start 最后通过ifconfig查看ip地址，"/>
 <meta name="application-name" content="我的网站">
 <meta name="apple-mobile-web-app-title" content="我的网站"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -24,12 +24,12 @@
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "安装nginx",
+        "headline": "安装nginx并使用nginx将hugo静态网站配置到web",
         "inLanguage": "zh-CN",
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/zhengqinjie11.github.io\/fifth_post\/"
-        },"genre": "posts","wordcount":  0 ,
+        },"genre": "posts","wordcount":  162 ,
         "url": "https:\/\/zhengqinjie11.github.io\/fifth_post\/","datePublished": "2022-12-17T20:46:07+08:00","dateModified": "2022-12-17T20:46:07+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -46,11 +46,11 @@
             <a href="/" title="阿杰爱泠鸢 hugo blog"><img
         class="lazyload logo"
         src="/svg/loading.min.svg"
-        data-src="%e9%98%bf%e6%9d%b0%e6%98%af%e9%b8%9f%e8%9b%8b%e7%9a%84%e5%8d%9a%e5%ae%a2"
-        data-srcset="%e9%98%bf%e6%9d%b0%e6%98%af%e9%b8%9f%e8%9b%8b%e7%9a%84%e5%8d%9a%e5%ae%a2, %e9%98%bf%e6%9d%b0%e6%98%af%e9%b8%9f%e8%9b%8b%e7%9a%84%e5%8d%9a%e5%ae%a2 1.5x, %e9%98%bf%e6%9d%b0%e6%98%af%e9%b8%9f%e8%9b%8b%e7%9a%84%e5%8d%9a%e5%ae%a2 2x"
+        data-src="ajie%20blog"
+        data-srcset="ajie%20blog, ajie%20blog 1.5x, ajie%20blog 2x"
         data-sizes="auto"
-        alt="阿杰是鸟蛋的博客"
-        title="阿杰是鸟蛋的博客" /></a>
+        alt="ajie blog"
+        title="ajie blog" /></a>
         </div>
         <div class="menu">
             <div class="menu-inner"><a class="menu-item" href="/posts/">  </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
@@ -76,11 +76,11 @@
                 <a href="/" title="阿杰爱泠鸢 hugo blog"><img
         class="lazyload logo"
         src="/svg/loading.min.svg"
-        data-src="%e9%98%bf%e6%9d%b0%e6%98%af%e9%b8%9f%e8%9b%8b%e7%9a%84%e5%8d%9a%e5%ae%a2"
-        data-srcset="%e9%98%bf%e6%9d%b0%e6%98%af%e9%b8%9f%e8%9b%8b%e7%9a%84%e5%8d%9a%e5%ae%a2, %e9%98%bf%e6%9d%b0%e6%98%af%e9%b8%9f%e8%9b%8b%e7%9a%84%e5%8d%9a%e5%ae%a2 1.5x, %e9%98%bf%e6%9d%b0%e6%98%af%e9%b8%9f%e8%9b%8b%e7%9a%84%e5%8d%9a%e5%ae%a2 2x"
+        data-src="ajie%20blog"
+        data-srcset="ajie%20blog, ajie%20blog 1.5x, ajie%20blog 2x"
         data-sizes="auto"
-        alt="阿杰是鸟蛋的博客"
-        title="阿杰是鸟蛋的博客" /></a>
+        alt="ajie blog"
+        title="ajie blog" /></a>
             </div>
             <div class="menu-toggle" id="menu-toggle-mobile">
                 <span></span><span></span><span></span>
@@ -115,22 +115,41 @@
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">Contents</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">安装nginx</h1><div class="post-meta">
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">安装nginx并使用nginx将hugo静态网站配置到web</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>阿杰</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-12-17">2022-12-17</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;0 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;0 minutes&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-12-17">2022-12-17</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;162 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="true">
                 <div class="details-summary toc-title">
                     <span>Contents</span>
                     <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
                 </div>
-                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
-  <ul>
-    <li><a href="#heading-1"></a></li>
-  </ul>
-</nav></div>
-            </div><div class="content" id="content"><h1 id="heading"></h1>
-<h2 id="heading-1"></h2>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
+            </div><div class="content" id="content"><h1 id="一安装nginx">一、安装nginx</h1>
+<p>使用命令</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">sudo apt-get install nginx
+</span></span></code></pre></div><p>随后使用命令nginx -v查看是否成功</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/jietu22.png"
+        data-srcset="/images/jietu22.png, /images/jietu22.png 1.5x, /images/jietu22.png 2x"
+        data-sizes="auto"
+        alt="/images/jietu22.png"
+        title="/images/jietu22.png" /></p>
+<p>随后开启nginx服务：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">service nginx start
+</span></span></code></pre></div><p>最后通过ifconfig查看ip地址，然后在浏览器输入ip地址，就可以查到下图所示网页啦</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/jietu23.png"
+        data-srcset="/images/jietu23.png, /images/jietu23.png 1.5x, /images/jietu23.png 2x"
+        data-sizes="auto"
+        alt="/images/jietu23.png"
+        title="/images/jietu23.png" /></p>
+<h1 id="二hugo与nginx的结合使用">二、hugo与nginx的结合使用</h1>
+<p>很遗憾，这一步我并没有办法完成，我会继续努力学习相关知识，最终完善它&hellip;&hellip;</p>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
@@ -142,7 +161,7 @@
                             <a class="link-to-markdown" href="/fifth_post/index.md" target="_blank">Read Markdown</a>
                         </span></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://zhengqinjie11.github.io/fifth_post/" data-title="安装nginx" data-via="xxxx"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://zhengqinjie11.github.io/fifth_post/"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://zhengqinjie11.github.io/fifth_post/" data-title="安装nginx"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://zhengqinjie11.github.io/fifth_post/" data-title="安装nginx"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://zhengqinjie11.github.io/fifth_post/" data-title="安装nginx"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://zhengqinjie11.github.io/fifth_post/" data-title="安装nginx并使用nginx将hugo静态网站配置到web" data-via="xxxx"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://zhengqinjie11.github.io/fifth_post/"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://zhengqinjie11.github.io/fifth_post/" data-title="安装nginx并使用nginx将hugo静态网站配置到web"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://zhengqinjie11.github.io/fifth_post/" data-title="安装nginx并使用nginx将hugo静态网站配置到web"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://zhengqinjie11.github.io/fifth_post/" data-title="安装nginx并使用nginx将hugo静态网站配置到web"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>

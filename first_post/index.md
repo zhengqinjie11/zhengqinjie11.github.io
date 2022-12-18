@@ -60,7 +60,7 @@ git commit -m "init project" `提交到本地仓库`
 
 git push -u origin master `推送到远程仓库`
 
-## 三、我的第一、二步的实验结果截图：
+## 三、我的第一、二步的作业结果截图：
 
 
 ![](/images/jietu8.png)
